@@ -4,6 +4,7 @@ const inputEl = document.getElementById('data');
 const resultEl = document.querySelector('.alert');
 
 /* PALINDROMA */
+
 myPalindrome()
 function myPalindrome(){
     btn.addEventListener('click',function(){
@@ -21,3 +22,5 @@ function myPalindrome(){
         };
      })
 }
+
+

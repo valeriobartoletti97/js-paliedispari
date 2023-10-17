@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>   
+</head>
+<body>
+
+    <!-- container -->
+    <div id="app" class="fw-bold">
+
+        <!-- titolo -->
+        <h1>Pari e dispari</h1>
+
+        <!-- casella input -->
+
+        <label for="data">Scegli pari o dispari</label>
+        <input type="text" id="data" name="data" value="">
+
+        <!-- bottone -->
+        <button class="btn btn-success mb-3">Invia</button>
+
+    <!-- contenitore per risultato / errore -->
+        <div class="bg-danger d-none">
+            Mi dispiace ma devi selezionare "pari" o "dispari" per continuare
+        </div>
+        <div class="bg-success d-none py-3">
+            <label for="user-number">Inserisci un numero da 1 a 5 </label>
+            <input type="text" id="user-number" name="user-number" value="">
+            <button class="btn btn-dark mb-3">Invia</button>
+        </div>
+        
+    </div>
+
+    <script src="js/utility.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
